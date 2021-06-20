@@ -66,6 +66,14 @@ export default class Sun {
 
     update() {
 
+        const light = this.map.lights.find(item => item instanceof THREE.DirectionalLight) as | THREE.DirectionalLight | undefined;
+
+        if (light === undefined) {
+            throw new Error("Light for a sun was not found.");
+        }
+
+        this.sun = light;
+
         const map = this.map;
         const sun = this.sun;
 
