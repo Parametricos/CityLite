@@ -1,0 +1,1 @@
+export type DataSourceTypes = "geojson" | "kmz" | "shp"
