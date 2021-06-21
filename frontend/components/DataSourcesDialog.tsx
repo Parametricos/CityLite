@@ -63,11 +63,11 @@ const DataSourcesDialog : FunctionComponent<DataSourcesDialogProps & DialogProps
             headerName: 'Type',
             width: 150,
         },
-        {
-            field: 'demo',
-            headerName: 'Demo',
-            width: 150,
-        },
+//         {
+//             field: 'demo',
+//             headerName: 'Demo',
+//             width: 150,
+//         },
         {
             field: 'actions',
             headerName: 'Actions',
