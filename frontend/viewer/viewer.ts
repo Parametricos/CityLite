@@ -22,7 +22,7 @@ class Viewer {
     resource_url = "https://cassini-hackathon-resources.s3.eu-central-1.amazonaws.com"
 
 
-    referencePosition: GeoCoordinates =  new GeoCoordinates(34.6700806351448,33.0352168888794)
+    referencePosition: GeoCoordinates =  new GeoCoordinates(37.78978459667242, -122.3932013251831)
 
     dataSourcesOpen: boolean = false;
     modelsOpen: boolean = false;
