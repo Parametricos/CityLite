@@ -13,7 +13,7 @@ Try it [here!](https://parametricos-cassini-hackathon.vercel.app)
 ## Contribution
 There's a few ways to contribute to this project and improve it:
 1. Fork the project repository and make your first pull request
-2. Submit sample IFC files, a square thumbnail image and a location, in the 'test-data' folder
+2. Submit sample Satelite Images (TIF), BIM Models (IFC), a square thumbnail image and the project's location
 3. Test it and create Issues in github so that we can start working on them
 
 Please feel free to contact us about contributing at info@parametricos.com or send us a message on [Linkedin](https://www.linkedin.com/company/parametricos/), [Twitter](https://twitter.com/parametricoscom) & [Instagram](https://www.instagram.com/parametricoscompany/)
