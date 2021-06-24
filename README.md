@@ -35,7 +35,7 @@ Ask us to invite you to our Slack Channels or join our newly created community o
 ## Using the library
 
 ## Developed
-CityLite was part of a submission to [Cassini Hackathon](https://hackathons.cassini.eu/) in 2021. CityLite is developed and maintained by [Parametricos Ltd.](https://parametricos.com "Parametricos Ltd.") for [Studio 3DX](https://studio3dx.com "Studio 3DX.") and was open sourced on the 26th of May 2021 in the name of BIM and it's community!
+CityLite was part of a submission to [Cassini Hackathon](https://hackathons.cassini.eu/) in 2021. CityLite is developed and maintained by [Parametricos Ltd.](https://parametricos.com "Parametricos Ltd."). CityLite and was open sourced in the name of BIM, GIS and it's community! On the 26th of May 2021 we open sourced our first package BCF-js which was part of the Studio 3DX.
 
 ## License
 CityLite is licensed under the [Mozilla Public License 2.0](https://github.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/blob/main/LICENSE "Mozilla Public License 2.0"). Please read the LICENSE file in this repository for more details. 
