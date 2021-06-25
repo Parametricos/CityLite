@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 import { Theme } from "@here/harp-datasource-protocol";
-import {MapAnchor, MapView} from "@here/harp-mapview";
+import {MapAnchor, MapView, CopyrightElementHandler} from "@here/harp-mapview";
 import {VectorTileDataSource} from "@here/harp-vectortile-datasource";
 import {GeoCoordinates} from "@here/harp-geoutils";
 import {MapControls, MapControlsUI} from "@here/harp-map-controls";
@@ -8,8 +8,6 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 import Sun from "./Sun";
 import LayerManager from "./layers/LayerManager";
 import ModelManager from "./models/ModelManager";
-
-
 
 class Viewer {
 
@@ -69,6 +67,8 @@ class Viewer {
             enableShadows: true
         });
 
+        CopyrightElementHandler.install("copyrightNotice", map);
+        
         this.map = map;
         window.onresize = () => map.resize(window.innerWidth, window.innerHeight);
 
