@@ -12,6 +12,8 @@ The fast-paced work environment of the construction industry along with the lack
 
 CityLite is a centralised platform for gathering data from different sources such as satellites, 3D Building Information Modeling models (BIM), GIS and IoT devices for the user to simulate different urban scenarios for a better built environment.
 
+#### CityLite is based on open-source software such as [harpgl](https://www.harp.gl/), [ifcjs](https://agviegas.github.io/ifcjs-docs/#/) and [threejs](https://threejs.org/) and others
+
 ### Note: This software is experimental (WIP)
 
 ## Demo
