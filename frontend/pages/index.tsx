@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {useEffect, useRef, useState} from "react";
 import {TimeOfDay} from "../components/TimeOfDay";
@@ -12,7 +13,6 @@ import {NextPage} from "next";
 import {observer} from "mobx-react-lite";
 import ModelsDialog from "../components/ModelsDialog";
 import EditModels from "../components/EditModels";
-
 
 
 const Home: NextPage = observer(() => {
@@ -37,8 +37,12 @@ const Home: NextPage = observer(() => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <a className={styles.logo} href="https://parametricos.com" target="_blank" rel="noreferrer">
+                <Image width={40} height={40} src="/parametricos.svg" alt="Parametricos Logo" />
+            </a>
+
             <canvas id="map" ref={canvasRef} className={styles.canvas}/>
-            <div id="copyright-notice"></div>
+            <div id="copyright-notice" className={styles.copyright}/>
 
             {viewer && (
                 <>

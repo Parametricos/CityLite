@@ -67,7 +67,7 @@ class Viewer {
             enableShadows: true
         });
 
-        CopyrightElementHandler.install("copyrightNotice", map);
+        CopyrightElementHandler.install("copyright-notice", map);
         
         this.map = map;
         window.onresize = () => map.resize(window.innerWidth, window.innerHeight);
