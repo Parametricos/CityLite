@@ -45,6 +45,7 @@
   position: absolute;
   left: 15px;
   bottom: 15px;
+  color: white;
   z-index: 100;
   opacity: 0.5;
 }

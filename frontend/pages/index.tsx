@@ -38,7 +38,7 @@ const Home: NextPage = observer(() => {
             </Head>
 
             <a className={styles.logo} href="https://parametricos.com" target="_blank" rel="noreferrer">
-                <Image width={40} height={40} src="/parametricos.svg" alt="Parametricos Logo" />
+                <Image width={30} height={30} src="/parametricos.svg" alt="Parametricos Logo" />
             </a>
 
             <canvas id="map" ref={canvasRef} className={styles.canvas}/>
