@@ -38,6 +38,8 @@ const Home: NextPage = observer(() => {
             </Head>
 
             <canvas id="map" ref={canvasRef} className={styles.canvas}/>
+            <div id="copyright-notice"></div>
+
             {viewer && (
                 <>
                     <Box
