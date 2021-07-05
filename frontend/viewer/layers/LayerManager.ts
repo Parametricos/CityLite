@@ -29,7 +29,7 @@ const DemoData = [
         id: "cyprusfire_20210703",
         type: "geojson",
         updated: "03 July 2021",
-        url: `https://raw.githubusercontent.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/main/assets/layers/2021_CyprusFire-EPSG.geojson`
+        url: `https://raw.githubusercontent.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/main/assets/layers/20210703_CyprusFire-EPSG.geojson`
     },
     /*{
         id: "limassol_boundary_buildings",
