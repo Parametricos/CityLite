@@ -8,6 +8,7 @@ import localforage from "localforage";
 import {DataSourceTypes} from "./DataSourceTypes";
 
 const resource_url = "https://cassini-hackathon-resources.s3.eu-central-1.amazonaws.com"
+const resource_github_url = "https://raw.githubusercontent.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/main/assets/layers"
 
 const DemoData = [
     {
@@ -25,11 +26,18 @@ const DemoData = [
         url: `${resource_url}/layers/limassol_ndvi.geojson`
     },
     {
-        name: "Cyprus Fire Emergency 2021.07.02",
+        name: "Cyprus - Fire - Emergency 2021.07.02",
         id: "cyprusfire_20210703",
         type: "geojson",
         updated: "03 July 2021",
-        url: `https://raw.githubusercontent.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/main/assets/layers/20210703_CyprusFire-EPSG.geojson`
+        url: `${resource_github_url}/20210703_CyprusFire-EPSG.geojson`
+    },
+    {
+        name: "Cyprus - Fire - Housing 2021.07.02",
+        id: "cyprusfirehousing_20210703",
+        type: "geojson",
+        updated: "03 July 2021",
+        url: `${resource_github_url}/20210703_Cadastral-Buildings-CyprusFire-EPSG.geojson`
     },
     /*{
         id: "limassol_boundary_buildings",
