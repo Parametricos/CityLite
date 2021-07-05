@@ -9,19 +9,27 @@ import {DataSourceTypes} from "./DataSourceTypes";
 
 const resource_url = "https://cassini-hackathon-resources.s3.eu-central-1.amazonaws.com"
 
-
 const DemoData = [
     {
-        id: "san_francisco_neighborhoods",
         name: "San Francisco Neighborhoods",
+        id: "san_francisco_neighborhoods",
         type: "geojson",
+        updated: "18 June 2021",
         url: `${resource_url}/layers/san_francisco_neighborhoods.json`
     },
     {
-        id: "limassol_ndvi",
         name: "Limassol NDVI",
+        id: "limassol_ndvi",
         type: "geojson",
+        updated: "18 June 2021",
         url: `${resource_url}/layers/limassol_ndvi.geojson`
+    },
+    {
+        name: "Cyprus Fire Emergency 2021.07.02",
+        id: "cyprusfire_20210703",
+        type: "geojson",
+        updated: "03 July 2021",
+        url: `https://raw.githubusercontent.com/Parametricos/citylite-smartcities-cassini-hackathon-2021/main/assets/layers/2021_CyprusFire-EPSG.geojson`
     },
     /*{
         id: "limassol_boundary_buildings",
