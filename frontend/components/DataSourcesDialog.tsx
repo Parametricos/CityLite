@@ -52,22 +52,30 @@ const DataSourcesDialog : FunctionComponent<DataSourcesDialogProps & DialogProps
     }
 
     const columns: GridColDef[] = [
-        { field: 'id', headerName: 'ID', width: 140 },
+
         {
             field: 'name',
             headerName: 'Name',
-            width: 250,
+            width: 400,
+            resizable: true,
+            sortable: true
         },
         {
             field: 'type',
             headerName: 'Type',
-            width: 150,
+            width: 100,
+            hide: true
         },
 //         {
 //             field: 'demo',
 //             headerName: 'Demo',
 //             width: 150,
 //         },
+       { field: 'id',
+            headerName: 'ID',
+           width: 20,
+           hide: true
+        },
         {
             field: 'actions',
             headerName: 'Actions',

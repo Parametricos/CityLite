@@ -12,16 +12,18 @@ const resource_github_url = "https://raw.githubusercontent.com/Parametricos/city
 
 const DemoData = [
     {
-        name: "San Francisco Neighborhoods",
+        name: "USA - San Francisco - Neighborhood Boundaries",
         id: "san_francisco_neighborhoods",
         type: "geojson",
+        country: "USA",
         updated: "18 June 2021",
         url: `${resource_url}/layers/san_francisco_neighborhoods.json`
     },
     {
-        name: "Limassol NDVI",
+        name: "Cyprus - Limassol - Normalized Difference Vegetation Index (NDVI)",
         id: "limassol_ndvi",
         type: "geojson",
+        country: "Cyprus",
         updated: "18 June 2021",
         url: `${resource_url}/layers/limassol_ndvi.geojson`
     },
@@ -29,6 +31,7 @@ const DemoData = [
         name: "Cyprus - Fire - Emergency 2021.07.02",
         id: "cyprusfire_20210703",
         type: "geojson",
+        country: "Cyprus",
         updated: "03 July 2021",
         url: `${resource_github_url}/20210703_CyprusFire-EPSG.geojson`
     },
@@ -36,6 +39,7 @@ const DemoData = [
         name: "Cyprus - Fire - Housing 2021.07.02",
         id: "cyprusfirehousing_20210703",
         type: "geojson",
+        country: "Cyprus",
         updated: "03 July 2021",
         url: `${resource_github_url}/20210703_Cadastral-Buildings-CyprusFire-EPSG.geojson`
     },
