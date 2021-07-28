@@ -1,7 +1,7 @@
-# CityLite - for smarter and greener cities (Cassini Hackathon 2021)
-## A smart cities concept developed by [Parametricos Ltd.](https://parametricos.com "Parametricos Ltd.") as part of the Cassini Hackathon 2021
+# CityLite - for smarter and greener cities
+## An award-winning smart cities concept developed by [Parametricos Ltd.](https://parametricos.com "Parametricos Ltd.")
 
-[![CityLite by Parametricos](https://blog.parametricos.com/content/images/2021/06/1624353682803.jpg)](https://blog.parametricos.com/1st-place-at-cassini-hackathon-cyprus-for-the-team-of-parametricos/ "CityLite by Parametricos")
+[![CityLite by Parametricos](https://blog.parametricos.com/content/images/2021/07/Screenshot-2021-07-12-133932-1.png)](https://youtu.be/CegmjmoU-8E "CityLite by Parametricos")
 
 
 ## About
@@ -20,8 +20,11 @@ CityLite is a centralised platform for gathering data from different sources suc
 
 Try CityLite [here!](https://parametricos-cassini-hackathon.vercel.app)
 
-## Getting Started
-
+## Getting Started (with Demo)
+There are three main actions on the CityLite demo at the moment: 
+1. Load a BIM model on the map by uploading your own IFC file and geolocate it with coordinates
+2. Upload a GIS (GeoJson) source and create a layer to visualise it
+3. Simulate the sun and shadows by selecting the calendar on the top right
 
 ## Contribution
 There's a few ways to contribute to this project and improve it:
