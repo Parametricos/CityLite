@@ -18,11 +18,11 @@ module.exports = withTM({
     return [
       {
         // Apply these headers to all routes in your application.
-        source: '/:path*',
+        source: '/',
         headers: [
           {
             key: 'X-Frame-Options',
-            value: 'SAMEORIGIN'
+            value: 'DENY'
           }
         ],
       },
